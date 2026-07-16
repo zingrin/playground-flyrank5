@@ -1,0 +1,22 @@
+[role="tablist"] {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+[role="tab"] {
+  padding: 10px 18px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+[role="tab"][aria-selected="true"] {
+  background: royalblue;
+  color: white;
+}
+
+[role="tabpanel"] {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 10px;
+}
